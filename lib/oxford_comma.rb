@@ -1,3 +1,4 @@
 def oxford_comma(array)
-return "#{array[0]} and #{array[1]}"
+i=0
+array.each { |element| return element }
 end
