@@ -5,7 +5,7 @@ def oxford_comma(array)
     elsif array.length == 1
     	array.join
     else array.length >=3
-      array[-2] << " and "
+      array[-2] = " and "
   	return array * ", "
     end
 end
