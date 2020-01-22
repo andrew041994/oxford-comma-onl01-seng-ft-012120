@@ -1,3 +1,3 @@
 def oxford_comma(array)
-array.each { |element| return element }
+pp array
 end
