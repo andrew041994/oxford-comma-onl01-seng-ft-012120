@@ -1,4 +1,6 @@
 def oxford_comma(array)
-result=array.join
- result
+if array.size < 2
+  return array
+
+end
 end
